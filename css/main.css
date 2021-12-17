@@ -1,3 +1,31 @@
 body {
   font-family: Palatino;
+  font-weight: bold;
+  margin: 70px;
+  background-color: rgb(224, 224, 224);
+}
+
+h1 {
+  text-decoration: underline;
+  padding-top: 30px;
+}
+
+#new-item-form {
+  background-color: rgb(173, 230, 230);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px black;
+}
+
+#reading-list {
+  background-color: rgb(173, 230, 230);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgb(32, 32, 32);
+}
+
+#reading-list:hover {
+  transform: scale(1.03);
 }
